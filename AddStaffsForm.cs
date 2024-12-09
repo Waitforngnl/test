@@ -203,7 +203,7 @@ namespace QLBANVEXEMPHIM
 
                                 cmd.ExecuteNonQuery();
 
-                                MessageBox.Show("Deleted successful", "Information message", 
+                                MessageBox.Show("Deleted successful", "Information message",
                                     MessageBoxButtons.OK, MessageBoxIcon.Information);
 
                                 clearFields();
@@ -213,7 +213,6 @@ namespace QLBANVEXEMPHIM
                 }
             }
         }
-
         private void addStaff_clearBtn_Click(object sender, EventArgs e)
         {
             clearFields();

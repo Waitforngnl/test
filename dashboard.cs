@@ -13,10 +13,13 @@ namespace QLBANVEXEMPHIM
 {
     public partial class dashboard : UserControl
     {
+
+        string conn = @"Data Source=TUANANH-LOQ\SQLEXPRESS;Integrated Security=True;Connect Timeout=30";
         public dashboard()
         {
             InitializeComponent();
         }
+
 
         private void label1_Click(object sender, EventArgs e)
         {
